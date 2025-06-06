@@ -1,0 +1,21 @@
+.app {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}

@@ -1,0 +1,14 @@
+.home-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.loading-message {
+  color: #4b5563; /* Corresponds to text-gray-600 */
+}
+
+.error-message {
+  color: #dc2626; 
+  margin-bottom: 1rem;
+}
