@@ -12,6 +12,7 @@ export const NOAADataProvider: React.FC<{ children: ReactNode }> = ({ children }
   useEffect(() => {
     const fetchData = async () => {
       try {
+        // TODO: change to the production endpoint (use a secret / .env)
         const response = await fetch('http://localhost:5001/gofish?apikey=abrradiology');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
